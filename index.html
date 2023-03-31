@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My iframe page</title>
+</head>
+<body>
+  <h1>Welcome to my iframe page</h1>
+  <p>Click the button below to trigger the callback:</p>
+  <button onclick="window.parent.postMessage('myapp://callback', '*')">Trigger Callback</button>
+</body>
+</html>
